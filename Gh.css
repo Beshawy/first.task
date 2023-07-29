@@ -1,0 +1,30 @@
+
+
+body{
+    background-color:rgb(56, 52, 52);
+    box-sizing: border-box;
+}
+h2{
+    color: rgb(247, 247, 9);
+}
+p{
+    color: white;
+}
+.kasper{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    position: relative;
+    gap: 3px;
+}
+.kasper p{
+    position: relative;
+    height: 205px;
+    top: 10px;
+    margin: auto;
+}
+
+.kasper div{
+    display: flex;
+    background-color: rgb(95, 95, 121);
+    column-gap: 2px;
+}
